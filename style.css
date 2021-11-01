@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.maincontant{
+    display: flex;
+}
+
+
+.leftBar{
+    background-color: whitesmoke;
+    flex-basis: 25%;
+    position: sticky; 
+    align-self: flex-start;
+
+}
+.leftBar{
+    text-align: center;
+    
+}
+div > .twiter{
+    font-size: 60px;
+    color: #00ACEE;
+   
+}
+.icon1{
+    display: flex;
+    align-items: baseline;
+    color: #00ACEE;
+    cursor: pointer;
+}
+.icon2{
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+}
+
+
+.maincontantBar{
+    flex-basis: 47%;
+    background-color: blue;
+    border: 4px solid black;
+}
+.rightBar{
+    flex-basis: 18%;
+    background-color: burlywood;
+    align-self: flex-start;
+}
+
+
