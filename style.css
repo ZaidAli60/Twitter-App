@@ -88,6 +88,7 @@ button{
 .imagecontant{
     
     border: 2px solid rgb(231, 231, 231);
+    border-bottom: 6px solid rgb(231, 231, 231);
     
 }
 .images{
@@ -116,6 +117,35 @@ button{
     color: #00ACEE;
 }
 
+.imagecard{
+    display: flex;
+    border: 2px solid rgb(231, 231, 231);
+    border-top:none ;
+}
+
+
+
+.item1{
+    align-self: flex-start;
+}
+.item1 > img{
+    border-radius: 50%;
+}
+.para{
+    display: flex;
+    align-items: baseline;
+    
+}
+.para > span{
+    opacity: 0.5;
+}
+.para-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.roundedimg{
+    border-radius: 20px;
+}
 
 
 
