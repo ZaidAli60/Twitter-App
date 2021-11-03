@@ -14,7 +14,8 @@
     /* background-color: whitesmoke; */
     flex-basis: 20%;
    
-    position: sticky; 
+    position: sticky;
+    top: 0px;
     align-self: flex-start;
 
 }
@@ -32,12 +33,18 @@ div > .twiter{
     align-items: baseline;
     color: #00ACEE;
     cursor: pointer;
+   
+    
 }
 .icon2{
     display: flex;
     align-items: baseline;
     cursor: pointer;
+    
+    
+    
 }
+
 button{
    padding-top: 8px;
    padding-bottom: 8px;
@@ -160,7 +167,8 @@ button{
 
 .rightBar{
     flex-basis: 30%;
-    
+    position: sticky;
+    top: 0px;
   
     align-self: flex-start;
 }
